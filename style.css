@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #030620;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+
+
+a{
+    text-decoration: none;
+    background-color: rgb(2, 7, 80);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: rgb(25, 35, 184);
+}
+
+.container {
+    background-color: #19258d; 
+    width: 600px;
+    padding: 20px; /* Optionnel pour ajouter de l'espace intérieur */
+    border-radius: 5px;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+input{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-size: 1rem;
+    color: #ffffff;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+     background-color: rgb(2, 7, 80);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.supprimer{
+        background-color: rgb(2, 7, 80);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(25, 35, 184);
+}
+
